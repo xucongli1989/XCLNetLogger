@@ -4,3 +4,9 @@ D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\XCLNetLogger\bin\Release\XCLNetL
 D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\XCLNetLogger\obj\Release\XCLNetLogger.dll
 D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\XCLNetLogger\obj\Release\XCLNetLogger.pdb
 D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\XCLNetLogger\obj\Release\XCLNetLogger.csprojResolveAssemblyReference.cache
+D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\XCLNetLogger\bin\Release\XCLNetLogger.XML
+D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\XCLNetLogger\bin\Release\XCLNetLogger.dll
+D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\XCLNetLogger\bin\Release\XCLNetLogger.pdb
+D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\XCLNetLogger\obj\Release\XCLNetLogger.csprojResolveAssemblyReference.cache
+D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\XCLNetLogger\obj\Release\XCLNetLogger.dll
+D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\XCLNetLogger\obj\Release\XCLNetLogger.pdb

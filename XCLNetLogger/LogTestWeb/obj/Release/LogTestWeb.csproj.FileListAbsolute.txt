@@ -6,3 +6,12 @@ D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\LogTestWeb\bin\XCLNetLogger.xml
 D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\LogTestWeb\obj\Release\LogTestWeb.csprojResolveAssemblyReference.cache
 D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\LogTestWeb\obj\Release\LogTestWeb.dll
 D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\LogTestWeb\obj\Release\LogTestWeb.pdb
+D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\bin\LogTestWeb.dll.config
+D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\bin\LogTestWeb.dll
+D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\bin\LogTestWeb.pdb
+D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\bin\XCLNetLogger.dll
+D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\bin\XCLNetLogger.pdb
+D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\bin\XCLNetLogger.xml
+D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\obj\Release\LogTestWeb.csprojResolveAssemblyReference.cache
+D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\obj\Release\LogTestWeb.dll
+D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\obj\Release\LogTestWeb.pdb
