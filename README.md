@@ -1,194 +1,198 @@
-By:XCL @2015 mail:80213876@qq.com  http://blog.csdn.net/luoyeyu1989
-# 使用环境 #
-- SQL SERVER
-- Windows
-- Asp.Net(默认4.5)
-# 基本配置 #
-建立Log.config配置文件，其内容如下：
-
-    <?xml version="1.0" encoding="utf-8" ?>
-    <XCLNetLoggerConfig>
-    <DBConfig>
-    <SQLType>MSSQL</SQLType>
-    <ConnectionString>server=XCL-PC\MSSQL2008;database=xxxx;uid=xxxx;pwd=xxxx</ConnectionString>
-    <CommandText>EXEC [SysLog_ADD] @LogLevel,@LogType,@RefferUrl,@Url,@Code,@Title,@Contents,@ClientIP,@Remark,@CreateTime</CommandText>
-    <CommandTimeOut>3</CommandTimeOut>
-    <NeedThrowException>true</NeedThrowException>
-    <IsAsync>false</IsAsync>
-    </DBConfig>
-    <ParameterList>
-    <Parameter>
-    <Name>@LogLevel</Name>
-    <DBType>VarChar</DBType>
-    <Size>50</Size>
-    </Parameter>
-    <Parameter>
-    <Name>@LogType</Name>
-    <DBType>VarChar</DBType>
-    <Size>50</Size>
-    </Parameter>
-    <Parameter>
-    <Name>@RefferUrl</Name>
-    <DBType>VarChar</DBType>
-    <Size>1000</Size>
-    </Parameter>
-    <Parameter>
-    <Name>@Url</Name>
-    <DBType>VarChar</DBType>
-    <Size>1000</Size>
-    </Parameter>
-    <Parameter>
-    <Name>@Code</Name>
-    <DBType>VarChar</DBType>
-    <Size>50</Size>
-    </Parameter>
-    <Parameter>
-    <Name>@Title</Name>
-    <DBType>VarChar</DBType>
-    <Size>500</Size>
-    </Parameter>
-    <Parameter>
-    <Name>@Contents</Name>
-    <DBType>VarChar</DBType>
-    <Size>4000</Size>
-    </Parameter>
-    <Parameter>
-    <Name>@ClientIP</Name>
-    <DBType>VarChar</DBType>
-    <Size>50</Size>
-    </Parameter>
-    <Parameter>
-    <Name>@Remark</Name>
-    <DBType>VarChar</DBType>
-    <Size>2000</Size>
-    </Parameter>
-    <Parameter>
-    <Name>@CreateTime</Name>
-    <DBType>DateTime</DBType>
-    </Parameter>
-    </ParameterList>
-    </XCLNetLoggerConfig>
+<p>By:XCL @2015 mail:80213876@qq.com  http://blog.csdn.net/luoyeyu1989</p>
+<h1>使用环境</h1>
+<ul>
+<li>SQL SERVER</li>
+<li>Windows</li>
+<li>Asp.Net(默认4.5)</li>
+</ul>
+<h1>基本配置</h1>
+<pre><code>建立Log.config配置文件，其内容如下：
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+&lt;XCLNetLoggerConfig&gt;
+&lt;DBConfig&gt;
+&lt;SQLType&gt;MSSQL&lt;/SQLType&gt;
+&lt;ConnectionString&gt;server=XCL-PC\MSSQL2008;database=xxxx;uid=xxxx;pwd=xxxx&lt;/ConnectionString&gt;
+&lt;CommandText&gt;EXEC [SysLog_ADD] @LogLevel,@LogType,@RefferUrl,@Url,@Code,@Title,@Contents,@ClientIP,@Remark,@CreateTime&lt;/CommandText&gt;
+&lt;CommandTimeOut&gt;3&lt;/CommandTimeOut&gt;
+&lt;NeedThrowException&gt;true&lt;/NeedThrowException&gt;
+&lt;IsAsync&gt;false&lt;/IsAsync&gt;
+&lt;/DBConfig&gt;
+&lt;ParameterList&gt;
+&lt;Parameter&gt;
+&lt;Name&gt;@LogLevel&lt;/Name&gt;
+&lt;DBType&gt;VarChar&lt;/DBType&gt;
+&lt;Size&gt;50&lt;/Size&gt;
+&lt;/Parameter&gt;
+&lt;Parameter&gt;
+&lt;Name&gt;@LogType&lt;/Name&gt;
+&lt;DBType&gt;VarChar&lt;/DBType&gt;
+&lt;Size&gt;50&lt;/Size&gt;
+&lt;/Parameter&gt;
+&lt;Parameter&gt;
+&lt;Name&gt;@RefferUrl&lt;/Name&gt;
+&lt;DBType&gt;VarChar&lt;/DBType&gt;
+&lt;Size&gt;1000&lt;/Size&gt;
+&lt;/Parameter&gt;
+&lt;Parameter&gt;
+&lt;Name&gt;@Url&lt;/Name&gt;
+&lt;DBType&gt;VarChar&lt;/DBType&gt;
+&lt;Size&gt;1000&lt;/Size&gt;
+&lt;/Parameter&gt;
+&lt;Parameter&gt;
+&lt;Name&gt;@Code&lt;/Name&gt;
+&lt;DBType&gt;VarChar&lt;/DBType&gt;
+&lt;Size&gt;50&lt;/Size&gt;
+&lt;/Parameter&gt;
+&lt;Parameter&gt;
+&lt;Name&gt;@Title&lt;/Name&gt;
+&lt;DBType&gt;VarChar&lt;/DBType&gt;
+&lt;Size&gt;500&lt;/Size&gt;
+&lt;/Parameter&gt;
+&lt;Parameter&gt;
+&lt;Name&gt;@Contents&lt;/Name&gt;
+&lt;DBType&gt;VarChar&lt;/DBType&gt;
+&lt;Size&gt;4000&lt;/Size&gt;
+&lt;/Parameter&gt;
+&lt;Parameter&gt;
+&lt;Name&gt;@ClientIP&lt;/Name&gt;
+&lt;DBType&gt;VarChar&lt;/DBType&gt;
+&lt;Size&gt;50&lt;/Size&gt;
+&lt;/Parameter&gt;
+&lt;Parameter&gt;
+&lt;Name&gt;@Remark&lt;/Name&gt;
+&lt;DBType&gt;VarChar&lt;/DBType&gt;
+&lt;Size&gt;2000&lt;/Size&gt;
+&lt;/Parameter&gt;
+&lt;Parameter&gt;
+&lt;Name&gt;@CreateTime&lt;/Name&gt;
+&lt;DBType&gt;DateTime&lt;/DBType&gt;
+&lt;/Parameter&gt;
+&lt;/ParameterList&gt;
+&lt;/XCLNetLoggerConfig&gt;
 
 该配置信息对应的实体如下：
-    
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-    
-    namespace XCLNetLogger.Model
-    {
-    /// <summary>
-    /// XCLNetLogger配置信息
-    /// </summary>
-    [Serializable]
-    public class XCLNetLoggerConfig
-    {
-        /// <summary>
-        /// DB配置信息
-        /// </summary>
-        public XCLNetLogger.Model.DBConfig DBConfig { get; set; }
 
-        /// <summary>
-        /// 参数信息
-        /// </summary>
-        public List<XCLNetLogger.Model.Parameter> ParameterList { get; set; }
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace XCLNetLogger.Model
+{
+/// &lt;summary&gt;
+/// XCLNetLogger配置信息
+/// &lt;/summary&gt;
+[Serializable]
+public class XCLNetLoggerConfig
+{
+    /// &lt;summary&gt;
+    /// DB配置信息
+    /// &lt;/summary&gt;
+    public XCLNetLogger.Model.DBConfig DBConfig { get; set; }
+
+    /// &lt;summary&gt;
+    /// 参数信息
+    /// &lt;/summary&gt;
+    public List&lt;XCLNetLogger.Model.Parameter&gt; ParameterList { get; set; }
+}
+
+/// &lt;summary&gt;
+/// DB配置
+/// &lt;/summary&gt;
+[Serializable]
+public class DBConfig
+{
+    private int _commandTimeOut = 30;
+    private bool _isAsync = true;
+
+    /// &lt;summary&gt;
+    /// 数据库类型
+    /// &lt;/summary&gt;
+    public XCLNetLogger.Config.LogConfig.SQLType SQLType { get; set; }
+
+    /// &lt;summary&gt;
+    /// 数据库连接串
+    /// &lt;/summary&gt;
+    public string ConnectionString { get; set; }
+
+    /// &lt;summary&gt;
+    /// SQL
+    /// &lt;/summary&gt;
+    public string CommandText { get; set; }
+
+    /// &lt;summary&gt;
+    /// sql执行超时时间 （默认30s）
+    /// &lt;/summary&gt;
+    public int CommandTimeOut
+    {
+        get { return this._commandTimeOut; }
+        set { this._commandTimeOut = value; }
     }
 
-    /// <summary>
-    /// DB配置
-    /// </summary>
-    [Serializable]
-    public class DBConfig
+    /// &lt;summary&gt;
+    /// 是否需要抛出异常（默认false）
+    /// &lt;/summary&gt;
+    public bool NeedThrowException { get; set; }
+
+    /// &lt;summary&gt;
+    /// 是否异步执行写入日志（默认true）
+    /// &lt;/summary&gt;
+    public bool IsAsync
     {
-        private int _commandTimeOut = 30;
-        private bool _isAsync = true;
-
-        /// <summary>
-        /// 数据库类型
-        /// </summary>
-        public XCLNetLogger.Config.LogConfig.SQLType SQLType { get; set; }
-
-        /// <summary>
-        /// 数据库连接串
-        /// </summary>
-        public string ConnectionString { get; set; }
-
-        /// <summary>
-        /// SQL
-        /// </summary>
-        public string CommandText { get; set; }
-
-        /// <summary>
-        /// sql执行超时时间 （默认30s）
-        /// </summary>
-        public int CommandTimeOut
-        {
-            get { return this._commandTimeOut; }
-            set { this._commandTimeOut = value; }
-        }
-
-        /// <summary>
-        /// 是否需要抛出异常（默认false）
-        /// </summary>
-        public bool NeedThrowException { get; set; }
-
-        /// <summary>
-        /// 是否异步执行写入日志（默认true）
-        /// </summary>
-        public bool IsAsync
-        {
-            get { return this._isAsync; }
-            set { this._isAsync = value; }
-        }
+        get { return this._isAsync; }
+        set { this._isAsync = value; }
     }
+}
 
-    /// <summary>
-    /// 参数配置
-    /// </summary>
-    [Serializable]
-    public class Parameter
-    {
-        /// <summary>
-        /// 参数名
-        /// </summary>
-        public string Name { get; set; }
+/// &lt;summary&gt;
+/// 参数配置
+/// &lt;/summary&gt;
+[Serializable]
+public class Parameter
+{
+    /// &lt;summary&gt;
+    /// 参数名
+    /// &lt;/summary&gt;
+    public string Name { get; set; }
 
-        /// <summary>
-        /// 参数类型
-        /// </summary>
-        public System.Data.SqlDbType DBType { get; set; }
+    /// &lt;summary&gt;
+    /// 参数类型
+    /// &lt;/summary&gt;
+    public System.Data.SqlDbType DBType { get; set; }
 
-        /// <summary>
-        /// 参数长度
-        /// </summary>
-        public int? Size { get; set; }
-    }
-    }
-# 开始使用： #
-1.	在项目中引用XCLNetLogger.dll
-2.	将上面的配置文件放到项目中
-3.	在Global中的Application_Start添加如下代码以初始化配置信息
-XCLNetLogger.Config.LogConfig.SetConfig(Server.MapPath("~/Config/Log.config"));
-4.	最后在程序代码中，可以直接使用了：
-XCLNetLogger.Log.WriteLog(logModel);//logModel可以在代码中转到定义自己看哦
-5.	报错了吧？别忘记创建日志表了，最好使用存储过程记日志
+    /// &lt;summary&gt;
+    /// 参数长度
+    /// &lt;/summary&gt;
+    public int? Size { get; set; }
+}
+}
+</code></pre>
+
+<h1>开始使用：</h1>
+<pre><code>1、在项目中引用XCLNetLogger.dll
+2、将上面的配置文件放到项目中
+    在Global中的Application_Start添加如下代码以初始化配置信息
+    XCLNetLogger.Config.LogConfig.SetConfig(Server.MapPath(&quot;~/Config/Log.config&quot;));
+3、最后在程序代码中，可以直接使用了：
+    XCLNetLogger.Log.WriteLog(logModel);//logModel可以在代码中转到定义自己看哦
+4、报错了吧？别忘记创建日志表了，最好使用存储过程记日志
+
 CREATE TABLE [dbo].[SysLog](
-	[SysLogID] [bigint] IDENTITY(1,1) NOT NULL,
-	[LogLevel] [varchar](50) NOT NULL,
-	[LogType] [varchar](50) NULL,
-	[RefferUrl] [varchar](1000) NULL,
-	[Url] [varchar](1000) NULL,
-	[Code] [varchar](50) NULL,
-	[Title] [varchar](500) NULL,
-	[Contents] [varchar](4000) NULL,
-	[ClientIP] [varchar](50) NULL,
-	[Remark] [varchar](2000) NULL,
-	[CreateTime] [datetime] NOT NULL,
+[SysLogID] [bigint] IDENTITY(1,1) NOT NULL,
+[LogLevel] [varchar](50) NOT NULL,
+[LogType] [varchar](50) NULL,
+[RefferUrl] [varchar](1000) NULL,
+[Url] [varchar](1000) NULL,
+[Code] [varchar](50) NULL,
+[Title] [varchar](500) NULL,
+[Contents] [varchar](4000) NULL,
+[ClientIP] [varchar](50) NULL,
+[Remark] [varchar](2000) NULL,
+[CreateTime] [datetime] NOT NULL,
  CONSTRAINT [PK_SYSLOG] PRIMARY KEY CLUSTERED 
 (
-	[SysLogID] ASC
+[SysLogID] ASC
 )WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 
@@ -205,9 +209,9 @@ CREATE PROCEDURE [dbo].[SysLog_ADD]
 @CreateTime datetime
 
  AS 
-	INSERT INTO [SysLog](
-	[LogLevel],[LogType],[RefferUrl],[Url],[Code],[Title],[Contents],[ClientIP],[Remark],[CreateTime]
-	)VALUES(
-	@LogLevel,@LogType,@RefferUrl,@Url,@Code,@Title,@Contents,@ClientIP,@Remark,@CreateTime
-	)
- 
+INSERT INTO [SysLog](
+[LogLevel],[LogType],[RefferUrl],[Url],[Code],[Title],[Contents],[ClientIP],[Remark],[CreateTime]
+)VALUES(
+@LogLevel,@LogType,@RefferUrl,@Url,@Code,@Title,@Contents,@ClientIP,@Remark,@CreateTime
+)
+</code></pre>
