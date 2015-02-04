@@ -1,0 +1,7 @@
+D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\LogTestWeb\bin\LogTestWeb.dll
+D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\LogTestWeb\bin\LogTestWeb.pdb
+D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\LogTestWeb\bin\XCLNetLogger.dll
+D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\LogTestWeb\bin\XCLNetLogger.pdb
+D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\LogTestWeb\obj\Debug\LogTestWeb.csprojResolveAssemblyReference.cache
+D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\LogTestWeb\obj\Debug\LogTestWeb.dll
+D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\LogTestWeb\obj\Debug\LogTestWeb.pdb

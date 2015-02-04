@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCLNetLogger", "XCLNetLogger\XCLNetLogger.csproj", "{30F35E45-B46B-4EF6-8D98-983E5BA863F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogTestWeb", "LogTestWeb\LogTestWeb.csproj", "{F803B11C-4C0C-4A10-8D15-0BF0340ADADB}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://xcl-pc:8080/tfs/xclwork
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = XCLNetLogger\\XCLNetLogger.csproj
+		SccProjectName1 = XCLNetLogger
+		SccLocalPath1 = XCLNetLogger
+		SccProjectUniqueName2 = LogTestWeb\\LogTestWeb.csproj
+		SccProjectName2 = LogTestWeb
+		SccLocalPath2 = LogTestWeb
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30F35E45-B46B-4EF6-8D98-983E5BA863F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F35E45-B46B-4EF6-8D98-983E5BA863F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F35E45-B46B-4EF6-8D98-983E5BA863F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F35E45-B46B-4EF6-8D98-983E5BA863F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F803B11C-4C0C-4A10-8D15-0BF0340ADADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F803B11C-4C0C-4A10-8D15-0BF0340ADADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F803B11C-4C0C-4A10-8D15-0BF0340ADADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F803B11C-4C0C-4A10-8D15-0BF0340ADADB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

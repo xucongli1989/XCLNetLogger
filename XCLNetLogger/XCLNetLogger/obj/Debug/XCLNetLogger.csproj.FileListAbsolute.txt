@@ -1,0 +1,4 @@
+D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\XCLNetLogger\bin\Debug\XCLNetLogger.dll
+D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\XCLNetLogger\bin\Debug\XCLNetLogger.pdb
+D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\XCLNetLogger\obj\Debug\XCLNetLogger.dll
+D:\Work\TFS\TFSData\XCLWork\MyTask\XCLNetLogger\XCLNetLogger\obj\Debug\XCLNetLogger.pdb
