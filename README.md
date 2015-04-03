@@ -1,12 +1,9 @@
 # 简介 #
 XCLNetLogger是一个轻量级的.NET环境下的日志记录组件，只需要简单的配置即可记录日志信息。
-<h1>使用环境</h1>
-<ul>
-<li>SQL SERVER</li>
-<li>Windows</li>
-<li>Asp.Net(默认4.5)</li>
-</ul>
-<h1>基本配置</h1>
+# 使用环境 #
+- SQL SERVER
+- Asp.Net(默认4.5)
+# 基本配置 #
 <pre><code>建立Log.config配置文件，其内容如下：
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
 &lt;XCLNetLoggerConfig&gt;
@@ -170,7 +167,7 @@ public class Parameter
 }
 </code></pre>
 
-<h1>开始使用：</h1>
+# 开始使用： #
 <pre><code>1、在项目中引用XCLNetLogger.dll
 2、将上面的配置文件放到项目中
     在Global中的Application_Start添加如下代码以初始化配置信息
@@ -217,10 +214,13 @@ INSERT INTO [SysLog](
 )
 </code></pre>
 
+
+----------
+
 # MIT授权协议 #
 1. 被授权人权利：被授权人有权利使用、复制、修改、合并、出版发行、散布、再授权及贩售软件及软件的副本。被授权人可根据程式的需要修改许可协议为适当的内容。
 2. 被授权人义务：在软件和软件的所有副本中都必须包含版权声明和许可声明。
 # 贡献者 #
-xucongli1989
+- xucongli1989
 # 反馈 #
-如果您发现软件使用过程中，有严重的bug，或者您拥有好的意见或建议，请邮件给我们，谢谢！e-mail:80213876@qq.com
+  如果您发现软件使用过程中，有严重的bug，或者您拥有好的意见或建议，请邮件给我们，谢谢！e-mail:80213876@qq.com
