@@ -15,3 +15,11 @@ D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\bin\XCLNetLogger.xml
 D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\obj\Release\LogTestWeb.csprojResolveAssemblyReference.cache
 D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\obj\Release\LogTestWeb.dll
 D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\obj\Release\LogTestWeb.pdb
+D:\MyData\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\bin\LogTestWeb.dll
+D:\MyData\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\bin\LogTestWeb.pdb
+D:\MyData\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\bin\XCLNetLogger.dll
+D:\MyData\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\bin\XCLNetLogger.pdb
+D:\MyData\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\bin\XCLNetLogger.xml
+D:\MyData\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\obj\Release\LogTestWeb.csprojResolveAssemblyReference.cache
+D:\MyData\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\obj\Release\LogTestWeb.dll
+D:\MyData\Git\GitHub\XCLNetLogger\XCLNetLogger\LogTestWeb\obj\Release\LogTestWeb.pdb

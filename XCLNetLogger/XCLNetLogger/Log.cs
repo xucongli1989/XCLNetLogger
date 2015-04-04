@@ -28,6 +28,7 @@ namespace XCLNetLogger
         public static void WriteLog(XCLNetLogger.Config.LogConfig.LogLevel logLevel, string title, string contents=null)
         {
             XCLNetLogger.Model.LogModel log = new XCLNetLogger.Model.LogModel();
+            log.LogLevel = logLevel;
             log.Title = title;
             log.Contents = contents;
             Log.WriteLog(log);

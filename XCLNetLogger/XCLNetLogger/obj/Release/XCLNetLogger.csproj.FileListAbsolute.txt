@@ -10,3 +10,8 @@ D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\XCLNetLogger\bin\Release\XCLNetLogg
 D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\XCLNetLogger\obj\Release\XCLNetLogger.csprojResolveAssemblyReference.cache
 D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\XCLNetLogger\obj\Release\XCLNetLogger.dll
 D:\Work\Git\GitHub\XCLNetLogger\XCLNetLogger\XCLNetLogger\obj\Release\XCLNetLogger.pdb
+D:\MyData\Git\GitHub\XCLNetLogger\XCLNetLogger\XCLNetLogger\bin\Release\XCLNetLogger.XML
+D:\MyData\Git\GitHub\XCLNetLogger\XCLNetLogger\XCLNetLogger\bin\Release\XCLNetLogger.dll
+D:\MyData\Git\GitHub\XCLNetLogger\XCLNetLogger\XCLNetLogger\bin\Release\XCLNetLogger.pdb
+D:\MyData\Git\GitHub\XCLNetLogger\XCLNetLogger\XCLNetLogger\obj\Release\XCLNetLogger.dll
+D:\MyData\Git\GitHub\XCLNetLogger\XCLNetLogger\XCLNetLogger\obj\Release\XCLNetLogger.pdb
