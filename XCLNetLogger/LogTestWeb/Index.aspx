@@ -14,6 +14,8 @@
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
         <br />写日志：<br />
         <asp:Button ID="Button1" runat="server" Text="写日志" OnClick="Button1_Click" />
+
+        <asp:Button ID="Button2" runat="server" Text="自动写入1000次" OnClick="btnClickMore" />
     </div>
     </form>
 </body>

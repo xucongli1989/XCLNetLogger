@@ -65,6 +65,13 @@
             获取用户ip地址
             </summary>
         </member>
+        <member name="M:XCLNetLogger.Lib.Common.InsertLogToDB(System.Web.HttpContext,XCLNetLogger.Model.LogModel)">
+            <summary>
+            向数据库中写入日志信息
+            </summary>
+            <param name="context">上下文</param>
+            <param name="model">日志model</param>
+        </member>
         <member name="T:XCLNetLogger.Log">
             <summary>
             日志类

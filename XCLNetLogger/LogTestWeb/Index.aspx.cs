@@ -32,5 +32,26 @@ namespace LogTestWeb
             }
 
         }
+
+        protected void btnClickMore(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 1000; i++)
+            {
+                XCLNetLogger.Model.LogModel logModel = new XCLNetLogger.Model.LogModel();
+                logModel.Contents = this.TextBox1.Text;
+
+                XCLNetLogger.Log.WriteLog(logModel);
+
+                try
+                {
+                    int a = 100; int b = 0;
+                    int c = a / b;
+                }
+                catch (Exception ex)
+                {
+                    XCLNetLogger.Log.WriteLog(ex);
+                }
+            }
+        }
     }
 }
