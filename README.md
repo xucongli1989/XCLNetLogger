@@ -7,13 +7,17 @@ XCLNetLogger是一个轻量级的.NET环境下的日志记录组件，只需要�
 - SQL SERVER
 - Asp.Net(默认4.5)
 
-# 开始使用： #
+# 开始使用 #
 
 1. 在项目中引用XCLNetLogger.dll
 2. 将配置文件放到项目中
 3. 在Global中的Application_Start添加如下代码以初始化配置信息 XCLNetLogger.Config.LogConfig.SetConfig(Server.MapPath("~/Config/Log.config"));
 4. 最后在程序代码中，可以直接使用了：XCLNetLogger.Log.WriteLog(logModel);//logModel可以在代码中转到定义自己看哦
 5. 报错了吧？别忘记创建日志表了，建议使用存储过程记日志
+
+# NuGet #
+[https://www.nuget.org/packages/XCLNetLogger/](https://www.nuget.org/packages/XCLNetLogger/)
+
 
 # [MIT](https://raw.githubusercontent.com/xucongli1989/XCLNetLogger/master/LICENSE)授权协议 #
 
